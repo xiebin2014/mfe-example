@@ -1,0 +1,25 @@
+{
+  "name": "mfe-example",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "webpack-dev-server --hot --colors --content-base app",
+    "prod": "webpack -p --config webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiebin2014/mfe-example.git"
+  },
+  "keywords": [
+    "micro",
+    "front",
+    "end"
+  ],
+  "author": "realxiebin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiebin2014/mfe-example/issues"
+  },
+  "homepage": "https://github.com/xiebin2014/mfe-example#readme"
+}
